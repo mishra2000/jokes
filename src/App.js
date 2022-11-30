@@ -1,23 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import jokes from './jokes.js';
+import Header from "./Header.js"
+
 
 function App() {
+  let i = Math.ceil(Math.random() * (200 - 0) + 0);
   return (
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+          <Header/>
+          
+        
+          <h3>{jokes[i]["title"]}</h3>
+          <p>{jokes[i]["body"]}</p>
+        
+      
     </div>
   );
 }
