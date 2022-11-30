@@ -1,4 +1,4 @@
-export default[
+const jokes = [
     {
         "body": "Now I have to say \"Leroy can you please paint the fence?\"",
         "id": "5tz52q",
@@ -6144,3 +6144,5 @@ export default[
         "title": "A women got a wooden breast implant yesterday.... it would be a funny joke if this had a punch line..."
     }
 ]
+
+export default jokes
