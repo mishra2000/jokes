@@ -26,3 +26,8 @@ code {
 .header-title{
   margin-right: auto;
 }
+
+.troll-img{
+  align-self: center;
+  height: 70%;
+}
