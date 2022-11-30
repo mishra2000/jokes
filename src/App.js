@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import jokes from './jokes.js';
 import Header from "./Header.js"

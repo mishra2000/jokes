@@ -5,7 +5,7 @@ export default function Header(){
         <nav className="navbar">
             
             <h3 className="header-title">MishraJi Lame Jokes</h3>
-            <img src={Image}/>
+            <img src={Image} alt="Troll"/>
         </nav>
     )
 }
