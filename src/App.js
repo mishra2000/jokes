@@ -1,6 +1,7 @@
 import './App.css';
 import jokes from './jokes.js';
-import Header from "./Header.js"
+import Header from "./Header.js";
+import Refresh from './Refresh';
 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
           <h3>{jokes[i]["title"]}</h3>
           <p>{jokes[i]["body"]}</p>
         
-      
+      <Refresh />
     </div>
   );
 }
