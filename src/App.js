@@ -5,7 +5,7 @@ import Refresh from './Refresh';
 
 
 function App() {
-  let i = Math.ceil(Math.random() * (3270 - 0) + 0);
+  let i = Math.ceil(Math.random() * (200 - 0) + 0);
   return (
     
     <div className="App">
