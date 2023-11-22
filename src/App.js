@@ -6,6 +6,7 @@ import Refresh from './Refresh';
 
 function App() {
   let i = Math.ceil(Math.random() * (1024 - 0) + 0);
+  console.log("printing joke");
   return (
     
     <div className="App">
